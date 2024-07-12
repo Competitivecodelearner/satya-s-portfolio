@@ -1,0 +1,497 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'poppins',sans-serif;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background-color:#080808;
+	color: #fff;
+}
+#home{
+	width: 100%;
+	height: 100vh;
+
+}
+.container{
+	padding: 20px 7%;
+	/*position: fixed;*/
+
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+    margin: 20px 30px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	position: relative;
+}
+nav h1{
+	font-size: 50px;
+	
+}
+nav h1 span{
+	color: red;
+}
+nav ul li a::after{
+	content: ' ';
+	width: 0;
+	height: 3px;
+	background: red;
+	position: absolute;
+	left: 0;
+	bottom: -6px;
+	transition: 0.2s;
+}
+nav ul li a:hover::after{
+	width: 100%;
+}
+
+
+.title{
+	padding-left:45%;
+	padding-top: 50px;
+	font-size: 50px;
+}
+.header-text{
+	padding: 120px 10%;
+	font-size: 30px;
+}
+
+.header-text p {
+	padding: 20px;
+}
+.tagline{
+	padding: 20px 20px;
+	padding-right: 50%;
+	font-size: 20px;
+	color:white;
+}
+.header-text h1 span{
+	color:red;
+}
+.pic{
+	float: right;
+	border-radius: 100%;
+	box-shadow: 0 0 10px 10px rgba(200,0,0,0.25);
+	/*box-shadow: 0px 0px 20px 20px red;*/
+}
+.submit1{
+	font-size: 20px;
+	width: 10%;
+	height: 8%;
+	margin: 15%;
+	text-decoration: none;
+	background-color: rgba(0, 0, 0, 1.0);
+	box-shadow: 0 0 10px 5px rgba(200,0,0,0.25);
+	color: red;
+}
+.submit1:hover{
+	background-color: red;
+	color: white;
+}
+	/*ABOUT*/
+
+#education h1{
+	padding: 20px 7%;
+	margin-bottom: 50px;
+	font-family:word-spacing: ;
+}
+#education h1 span{
+	color: red;
+}
+#contents{
+	display: flex;
+}
+.school{
+	font-size: 20px;
+	background-color:rgba(236,124,124,0.1);
+	padding: 20px 40px;
+	margin-left: 8%;
+	margin-right: 20px;
+	border-radius: 50px;
+}
+.school h2{
+	padding: 20px 0px;
+	color: red;
+}
+.image1{
+    margin: 50px 100px;
+	border-radius: 50px;
+	
+}
+.image1:hover{
+	transform:scale(1,1.25);
+	box-shadow: 0px 0px 10px 10px;
+	
+}
+.jr-college{
+	font-size: 20px;
+	background-color: rgba(243,231,126,0.1);
+	padding: 20px 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 50px;
+}
+.jr-college h2{
+	padding: 20px 0px;
+	color: red;
+}
+.image2{
+	margin: 50px 100px;
+	border-radius: 50px;
+	
+	
+}
+.image2:hover{
+	transform:scale(1,1.25);
+	box-shadow: 0px 0px 10px 10px;
+	
+}
+.university{
+	font-size: 20px;
+	background-color: rgba(99,94,230,0.1);
+	padding: 20px 40px;
+	margin-left: 20px;
+    margin-right: 8%;
+    border-radius: 50px;
+}
+.university h2{
+     padding: 20px 0px;
+     color: red;
+
+}
+.image3{
+	margin-top: 100px;
+	margin-left: 30px;
+	border-radius: 50px;
+}
+.image3:hover{
+	transform:scale(1,1.25);
+	box-shadow: 0px 0px 10px 10px;
+	
+
+}
+.click1{
+	font-size: 15px;
+	margin: 10px 50px;
+}
+
+}
+.click2{
+	font-size: 15px;
+	margin: 10px 60px;
+}
+
+.click3{
+	font-size: 15px;
+	color: ;
+	margin: 30px 30px;
+}
+
+/*skills*/
+#skills h1{
+	margin: 200px 150px 7% 7%;
+}
+#skills h1 span{
+	color: red;
+}
+.contents1{
+	display: flex;
+}
+/*.Techskills{
+	box-shadow: 0 0 20px 20px grey;
+	margin: 0px 15%;
+	width: 30vw;
+}*/
+
+.Techskills{
+	width: 500px;
+	margin: 20px auto;
+	color: #fff;
+	padding: 20px;
+	box-shadow: 0 0 10px 10px rgba(200,0,0,0.25);
+}
+.Techskills li{
+	margin: 20px 0;
+	padding: 10px;
+}
+.bar{
+	background:#353b48 ;
+	display: block;
+	height: 20px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24) ;
+	transition: all 0.3s cubic-bezier(.25,.8.25,1);
+}
+ .bar:hover{
+ 	box-shadow: 0 14px 28px rgba(0,0,200,0.25),10px 10px rgba(0,0,200,0.22);
+ }
+ .bar span{
+ 	height: 20px;
+ 	float: left;
+ 	background: linear-gradient(135deg,rgba(236,0,140,1) 0%,rgba(252,103,103,1)100%);
+ }
+ .html{
+ 	width: 80%;
+ 	animation: html 2s;
+
+ }
+  .css{
+ 	width: 45%;
+ 	animation: css 2s;
+
+ }
+  .c{
+ 	width: 85%;
+ 	animation: c 2s;
+
+ }
+  .python{
+ 	width: 50%;
+ 	animation: python 2s;
+
+ }
+ @keyframes html{
+ 	0%{
+ 		width: 0%;
+ 	}
+ 	100%{
+ 		width: 80%;
+ 	}
+
+ }
+ @keyframes css{
+ 	0%{
+ 		width: 0%;
+ 	}
+ 	100%{
+ 		width: 45%;
+ 	}
+
+ }
+ @keyframes c{
+ 	0%{
+ 		width: 0%;
+ 	}
+ 	100%{
+ 		width: 85%;
+ 	}
+
+ }
+ @keyframes python{
+ 	0%{
+ 		width: 0%;
+ 	}
+ 	100%{
+ 		width: 50%;
+ 	}
+
+ }
+.Techskills h2{
+	color: red;
+	font-style: italic;
+	font-size: 30px;
+	padding: 10% 22%;
+
+}
+.Otherskills{
+	box-shadow: 0 0 20px 20px grey;
+	margin: 0px 15;
+	width: 30vw;
+}
+.Otherskills h2{
+	color: rgb(50,96,220);
+	font-style: italic;
+	font-size: 30px;
+	padding: 10% 30%;
+}
+.Otherskills{
+	width: 500px;
+	margin: 20px auto;
+	color: #fff;
+	padding: 20px;
+	box-shadow:  0 0 20px 10px rgba(50,96,220,0.25);
+}
+.Otherskills li{
+	margin: 20px 0;
+	padding: 10px;
+}
+.bar2{
+	background:#353b48 ;
+	display: block;
+	height: 20px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow:0 0 10px 10px rgba(0,0,0,0.25);
+	transition: all 0.3s cubic-bezier(.25,.8.25,1);
+}
+ .bar2:hover{
+ 	box-shadow: 0 14px 28px rgba(150,0,0,0.25),10px 10px rgba(150,0,0,0.22);
+ }
+ .bar2 span{
+ 	height: 20px;
+ 	float: left;
+ 	background: linear-gradient(135deg,rgba(0,0,236,1) 0%,rgba(50,96,220,1)100%);
+ }
+ .creativity{
+ 	width: 65%;
+ 	animation: creativity 2s;
+
+ }
+  .communication{
+ 	width: 60%;
+ 	animation: communication 2s;
+
+ }
+  .team-management{
+ 	width: 70%;
+ 	animation: team-management 2s;
+
+ }
+  .time-management{
+ 	width: 50%;
+ 	animation: time-management 2s;
+
+ }
+ @keyframes creativity{
+ 	0%{
+ 		width: 0%;
+ 	}
+ 	100%{
+ 		width: 65%;
+ 	}
+
+ }
+ @keyframes communication{
+ 	0%{
+ 		width: 0%;
+ 	}
+ 	100%{
+ 		width: 60%;
+ 	}
+
+ }
+ @keyframes team-management{
+ 	0%{
+ 		width: 0%;
+ 	}
+ 	100%{
+ 		width: 70%;
+ 	}
+
+ }
+ @keyframes time-management {
+ 	0%{
+ 		width: 0%;
+ 	}
+ 	100%{
+ 		width: 50%;
+ 	}
+
+ }
+
+ /*CONTACT*/
+
+ 
+ .last{
+ 	margin: 7% 7%;
+
+ }
+ .last h1 span{
+ 	color: red;
+ }
+ .matter{
+ 	margin: 2% 10%;
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+ .forms{
+ 	display: block;
+ 	font-size: 30px;
+ 	margin-right: 4%;
+ 	padding: 20px 20px;
+ 	font-style: italic;
+ 	box-shadow: 0 0 10px 10px rgba(200,0,0,0.2);
+ }
+ .climax{
+ 	margin: 6% 35%;
+ }
+ .forms{
+ 	width: 50%;
+ 	padding: 30px 40px;
+ }
+ .input{
+ 	width: 50%;
+ 	height: 7%;
+ 	
+ }
+ 
+ .msg{
+ 	display: block;
+ 	align-items: center;
+ }
+ .forms textarea{
+ 	margin: 5px 42%;
+ 	width: 50%;
+
+ }
+ .submit{
+ 	margin: 20px 40%;
+ 	width: 20%;
+ 	height: 8%;
+ 	font-size: 18px;
+ 	background-color: darkred;;
+ 	color: white;
+ }
+ .picture{
+ 	border-radius: 50px;
+ 	border: 10px solid rgba(0,0,200,0.25);
+ }
+ .left h3{
+ 	padding-top: 50px;
+ 	color: red;
+ }
+ .icons{
+ 	padding-top: 20px;
+ 	color: darkred;
+ 	font-size: 20px;
+ 	background-color:black;
+ }
+ .icons a{
+ 	color: skyblue;
+ 	margin: 10px;
+ }
+ .icons a:hover{
+ 	color: darkred;
+ }
+.icons p{
+	color: white;
+}
+.copyright{
+	margin: 0 40%;
+}
+
+@media only screen and (max-width: 600px){
+	nav ul li{
+		display: inline-block;
+	}
+	.pic{
+		margin-left: 40%;
+	}
+}
