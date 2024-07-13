@@ -14,12 +14,10 @@ body{
 #home{
 	width: 100%;
 	height: 100vh;
-
 }
 .container{
 	padding: 20px 7%;
 	/*position: fixed;*/
-
 }
 nav{
 	display: flex;
@@ -58,49 +56,43 @@ nav ul li a::after{
 nav ul li a:hover::after{
 	width: 100%;
 }
-
-
 .title{
-	padding-left:45%;
-	padding-top: 50px;
+	text-align: center;
 	font-size: 50px;
+	color: gold;
+}
+.header-content{
+	display: flex;
+	justify-content: space-between;
 }
 .header-text{
-	padding: 120px 10%;
+	margin: 6% 8%;
+	width: 50%;
 	font-size: 30px;
 }
-
-.header-text p {
-	padding: 20px;
+.header-text h1 span{
+	color: red;
+}
+.header-text p{
+	padding: 3%;
 }
 .tagline{
-	padding: 20px 20px;
-	padding-right: 50%;
-	font-size: 20px;
-	color:white;
+	font-size: 25px;
+	padding:4% 2%;
 }
-.header-text h1 span{
-	color:red;
-}
-.pic{
-	float: right;
-	border-radius: 100%;
-	box-shadow: 0 0 10px 10px rgba(200,0,0,0.25);
-	/*box-shadow: 0px 0px 20px 20px red;*/
+.header-picture{
+	margin: 6% 7%;
 }
 .submit1{
 	font-size: 20px;
-	width: 10%;
-	height: 8%;
-	margin: 15%;
+	padding: 15px;
 	text-decoration: none;
-	background-color: rgba(0, 0, 0, 1.0);
-	box-shadow: 0 0 10px 5px rgba(200,0,0,0.25);
-	color: red;
-}
-.submit1:hover{
+	margin: 30%;
 	background-color: red;
 	color: white;
+}
+.submit1:hover{
+	background-color: darkred;
 }
 	/*ABOUT*/
 
@@ -112,15 +104,16 @@ nav ul li a:hover::after{
 #education h1 span{
 	color: red;
 }
-#contents{
+.contents{
 	display: flex;
+	justify-content: space-between;
+	margin: 0 8%;
 }
 .school{
 	font-size: 20px;
-	background-color:rgba(236,124,124,0.1);
+	background-color:rgba(236,124,124,0.05);
+	width: 30%;
 	padding: 20px 40px;
-	margin-left: 8%;
-	margin-right: 20px;
 	border-radius: 50px;
 }
 .school h2{
@@ -128,21 +121,18 @@ nav ul li a:hover::after{
 	color: red;
 }
 .image1{
-    margin: 50px 100px;
+    margin: 10% 26%;
 	border-radius: 50px;
-	
 }
 .image1:hover{
-	transform:scale(1,1.25);
-	box-shadow: 0px 0px 10px 10px;
-	
+	transform:scale(1.25,1.25);
+	box-shadow: 0px 0px 10px 10px rgba(100,100,100,0.2)
 }
 .jr-college{
 	font-size: 20px;
-	background-color: rgba(243,231,126,0.1);
+	background-color: rgba(243,231,126,0.05);
+	width: 30%;
 	padding: 20px 40px;
-	margin-left: 20px;
-	margin-right: 20px;
 	border-radius: 50px;
 }
 .jr-college h2{
@@ -150,58 +140,37 @@ nav ul li a:hover::after{
 	color: red;
 }
 .image2{
-	margin: 50px 100px;
+	margin: 10% 26%;
 	border-radius: 50px;
-	
-	
 }
 .image2:hover{
-	transform:scale(1,1.25);
-	box-shadow: 0px 0px 10px 10px;
-	
+	transform:scale(1.25,1.25);
+	box-shadow: 0px 0px 10px 10px rgba(100,100,100,0.2);;
 }
 .university{
 	font-size: 20px;
-	background-color: rgba(99,94,230,0.1);
+	background-color: rgba(99,94,230,0.05);
+	width: 30%;
 	padding: 20px 40px;
-	margin-left: 20px;
-    margin-right: 8%;
     border-radius: 50px;
 }
 .university h2{
      padding: 20px 0px;
      color: red;
-
 }
 .image3{
-	margin-top: 100px;
-	margin-left: 30px;
+	margin: 10% 26%;
 	border-radius: 50px;
 }
 .image3:hover{
-	transform:scale(1,1.25);
-	box-shadow: 0px 0px 10px 10px;
-	
-
+	transform:scale(1.25,1.25);
+	box-shadow: 0px 0px 10px 10px rgba(100,100,100,0.2);
 }
-.click1{
+.click1,.click2,.click3{
+	text-align: center;
 	font-size: 15px;
-	margin: 10px 50px;
 }
-
-}
-.click2{
-	font-size: 15px;
-	margin: 10px 60px;
-}
-
-.click3{
-	font-size: 15px;
-	color: ;
-	margin: 30px 30px;
-}
-
-/*skills*/
+         /*skills*/
 #skills h1{
 	margin: 200px 150px 7% 7%;
 }
@@ -210,24 +179,21 @@ nav ul li a:hover::after{
 }
 .contents1{
 	display: flex;
+	justify-content: space-between;
 }
-/*.Techskills{
-	box-shadow: 0 0 20px 20px grey;
-	margin: 0px 15%;
-	width: 30vw;
-}*/
-
 .Techskills{
-	width: 500px;
-	margin: 20px auto;
+	width: 25%;
+	margin: 0 10%;
+	margin-bottom: 10%;
 	color: #fff;
-	padding: 20px;
 	box-shadow: 0 0 10px 10px rgba(200,0,0,0.25);
 }
 .Techskills li{
+	list-style: none;
 	margin: 20px 0;
-	padding: 10px;
+	padding: 20px;
 }
+
 .bar{
 	background:#353b48 ;
 	display: block;
@@ -249,22 +215,18 @@ nav ul li a:hover::after{
  .html{
  	width: 80%;
  	animation: html 2s;
-
  }
   .css{
  	width: 45%;
- 	animation: css 2s;
-
+    animation: css 2s;
  }
   .c{
  	width: 85%;
  	animation: c 2s;
-
  }
   .python{
  	width: 50%;
  	animation: python 2s;
-
  }
  @keyframes html{
  	0%{
@@ -273,7 +235,6 @@ nav ul li a:hover::after{
  	100%{
  		width: 80%;
  	}
-
  }
  @keyframes css{
  	0%{
@@ -282,7 +243,6 @@ nav ul li a:hover::after{
  	100%{
  		width: 45%;
  	}
-
  }
  @keyframes c{
  	0%{
@@ -291,7 +251,6 @@ nav ul li a:hover::after{
  	100%{
  		width: 85%;
  	}
-
  }
  @keyframes python{
  	0%{
@@ -300,36 +259,33 @@ nav ul li a:hover::after{
  	100%{
  		width: 50%;
  	}
-
  }
+ 
 .Techskills h2{
+	text-align: center;
 	color: red;
 	font-style: italic;
 	font-size: 30px;
-	padding: 10% 22%;
-
-}
-.Otherskills{
-	box-shadow: 0 0 20px 20px grey;
-	margin: 0px 15;
-	width: 30vw;
+	padding: 20px 0;
 }
 .Otherskills h2{
+	text-align: center;
 	color: rgb(50,96,220);
 	font-style: italic;
 	font-size: 30px;
-	padding: 10% 30%;
+	padding: 20px 0;
 }
 .Otherskills{
-	width: 500px;
-	margin: 20px auto;
+	width: 25%;
+	margin: 0 10%;
+	margin-bottom: 10%;
 	color: #fff;
-	padding: 20px;
 	box-shadow:  0 0 20px 10px rgba(50,96,220,0.25);
 }
 .Otherskills li{
+	list-style: none;
 	margin: 20px 0;
-	padding: 10px;
+	padding: 30px;
 }
 .bar2{
 	background:#353b48 ;
@@ -352,31 +308,26 @@ nav ul li a:hover::after{
  .creativity{
  	width: 65%;
  	animation: creativity 2s;
-
  }
   .communication{
  	width: 60%;
  	animation: communication 2s;
-
  }
   .team-management{
  	width: 70%;
  	animation: team-management 2s;
-
  }
   .time-management{
  	width: 50%;
  	animation: time-management 2s;
-
  }
  @keyframes creativity{
- 	0%{
+ 	0%
  		width: 0%;
  	}
  	100%{
  		width: 65%;
  	}
-
  }
  @keyframes communication{
  	0%{
@@ -385,7 +336,6 @@ nav ul li a:hover::after{
  	100%{
  		width: 60%;
  	}
-
  }
  @keyframes team-management{
  	0%{
@@ -394,7 +344,6 @@ nav ul li a:hover::after{
  	100%{
  		width: 70%;
  	}
-
  }
  @keyframes time-management {
  	0%{
@@ -403,21 +352,16 @@ nav ul li a:hover::after{
  	100%{
  		width: 50%;
  	}
-
  }
-
- /*CONTACT*/
-
- 
+        /*CONTACT*/
  .last{
  	margin: 7% 7%;
-
  }
  .last h1 span{
  	color: red;
  }
  .matter{
- 	margin: 2% 10%;
+ 	margin: 2% 8%;
  	display: flex;
  	justify-content: space-between;
  }
@@ -427,71 +371,87 @@ nav ul li a:hover::after{
  	margin-right: 4%;
  	padding: 20px 20px;
  	font-style: italic;
- 	box-shadow: 0 0 10px 10px rgba(200,0,0,0.2);
- }
- .climax{
- 	margin: 6% 35%;
+ 	box-shadow: 0 0 10px 10px rgba(204,204,204,0.2);
  }
  .forms{
  	width: 50%;
  	padding: 30px 40px;
  }
  .input{
+ 	background-color: lightgrey;
+ 	color: white;
  	width: 50%;
- 	height: 7%;
- 	
+ 	height: 7%;	
  }
- 
  .msg{
  	display: block;
  	align-items: center;
  }
  .forms textarea{
+ 	background-color: lightgrey;
+ 	color: white;
  	margin: 5px 42%;
  	width: 50%;
-
  }
  .submit{
  	margin: 20px 40%;
  	width: 20%;
  	height: 8%;
  	font-size: 18px;
- 	background-color: darkred;;
+ 	background-color: darkred;
  	color: white;
  }
  .picture{
+ 	margin-right: 50px;
+ 	margin-top: 75px;
  	border-radius: 50px;
- 	border: 10px solid rgba(0,0,200,0.25);
+ 	box-shadow: 0 0 10px 10px rgba(200,0,0,0.2);
  }
- .left h3{
- 	padding-top: 50px;
+ .icons h3{
+ 	margin: 10% 5%;
  	color: red;
+ 	font-style: italic;
+ 	font-size: 30px;
  }
  .icons{
- 	padding-top: 20px;
- 	color: darkred;
- 	font-size: 20px;
- 	background-color:black;
+ 	margin: 10% 0;
+ 	padding: 20px;
+ 	box-shadow: 0 0 10px 10px rgba(0,0,200,0.2);
  }
- .icons a{
+ .icons i{
+ 	padding-left: 30px;
+ 	margin-left: 5%;
+ 	margin-top: 5%;
+ 	font-size: 25px;
+ }
+ .icons p{
+ 	padding-left: 30px;
+ }
+ .fa-phone{
+ 	color: green;
+ }
+ .fa-envelope{
+ 	color: darkorange;
+ }
+ .fa-linkedin{
  	color: skyblue;
- 	margin: 10px;
  }
- .icons a:hover{
- 	color: darkred;
+ .fa-instagram{
+ 	color: crimson;
  }
-.icons p{
-	color: white;
+.climax{
+	margin-top: 5%;
+	margin-bottom: 3%;
+	text-align: center;
+	color: goldenrod;
 }
 .copyright{
-	margin: 0 40%;
+	margin: 3% 0;
+	text-align: center;
 }
 
-@media only screen and (max-width: 600px){
-	nav ul li{
-		display: inline-block;
-	}
-	.pic{
-		margin-left: 40%;
-	}
+@media only screen and(max-width: 600px){
+
 }
+
+
