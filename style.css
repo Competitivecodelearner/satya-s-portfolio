@@ -322,7 +322,7 @@ nav ul li a:hover::after{
  	animation: time-management 2s;
  }
  @keyframes creativity{
- 	0%
+ 	0%{
  		width: 0%;
  	}
  	100%{
