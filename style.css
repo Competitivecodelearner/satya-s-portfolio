@@ -88,11 +88,11 @@ nav ul li a:hover::after{
 	padding: 15px;
 	text-decoration: none;
 	margin: 30%;
-	background-color: red;
+	background-color: darkred;
 	color: white;
 }
 .submit1:hover{
-	background-color: darkred;
+	background-color: red;
 }
 	/*ABOUT*/
 
@@ -401,6 +401,9 @@ nav ul li a:hover::after{
  	background-color: darkred;
  	color: white;
  }
+.submit:hover{
+	background-color:red;
+}
  .picture{
  	margin-right: 50px;
  	margin-top: 75px;
@@ -439,6 +442,9 @@ nav ul li a:hover::after{
  .fa-instagram{
  	color: crimson;
  }
+.fa-linkedin:hover..fa-instagram:hover{
+	transform:scale(1.25,1.25);
+}
 .climax{
 	margin-top: 5%;
 	margin-bottom: 3%;
