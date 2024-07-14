@@ -325,6 +325,7 @@ nav ul li a:hover::after{
  	0%{
  		width: 0%;
  	}
+ 	
  	100%{
  		width: 65%;
  	}
@@ -379,7 +380,8 @@ nav ul li a:hover::after{
  }
  .input{
  	background-color: lightgrey;
- 	color: white;
+ 	color: black;
+ 	font-size: 20px;
  	width: 50%;
  	height: 7%;	
  }
@@ -389,8 +391,10 @@ nav ul li a:hover::after{
  }
  .forms textarea{
  	background-color: lightgrey;
- 	color: white;
- 	margin: 5px 42%;
+ 	height: 45%;
+ 	color: black;
+ 	font-size: 20px;
+ 	margin: 5px  44%;
  	width: 50%;
  }
  .submit{
@@ -401,9 +405,9 @@ nav ul li a:hover::after{
  	background-color: darkred;
  	color: white;
  }
-.submit:hover{
-	background-color:red;
-}
+ .submit:hover{
+ 	background-color: red;
+ }
  .picture{
  	margin-right: 50px;
  	margin-top: 75px;
@@ -439,12 +443,12 @@ nav ul li a:hover::after{
  .fa-linkedin{
  	color: skyblue;
  }
+ .fa-linkedin:hover,.fa-instagram:hover{
+ 	transform: scale(1.25,1.25);
+ }
  .fa-instagram{
  	color: crimson;
  }
-.fa-linkedin:hover,.fa-instagram:hover{
-	transform:scale(1.25,1.25);
-}
 .climax{
 	margin-top: 5%;
 	margin-bottom: 3%;
@@ -456,8 +460,11 @@ nav ul li a:hover::after{
 	text-align: center;
 }
 
-@media only screen and(max-width: 600px){
-
+@media only screen and(max-width: 700px){
+	.header-content{
+		flex-direction:column;
+	}
+	.contents{
+		flex-direction: column;
+	}
 }
-
-
