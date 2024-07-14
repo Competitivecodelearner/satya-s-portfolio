@@ -442,7 +442,7 @@ nav ul li a:hover::after{
  .fa-instagram{
  	color: crimson;
  }
-.fa-linkedin:hover..fa-instagram:hover{
+.fa-linkedin:hover,.fa-instagram:hover{
 	transform:scale(1.25,1.25);
 }
 .climax{
