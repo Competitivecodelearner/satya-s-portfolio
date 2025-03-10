@@ -59,7 +59,7 @@ nav ul li a:hover::after{
 .title{
 	text-align: center;
 	font-size: 50px;
-	color: gold;
+	color: white;
 }
 .header-content{
 	display: flex;
